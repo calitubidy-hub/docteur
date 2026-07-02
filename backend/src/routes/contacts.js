@@ -22,7 +22,7 @@ router.post('/', async (req, res) => {
     // Envoyer email de notification
     if (resend) {
       await resend.emails.send({
-        from: 'Docteur Permis <noreply@docteurpermis.fr>',
+        from: 'Docteur Permis <noreply@docteurpermi.com>',
         to: 'permisdocteur@gmail.com',
         subject: `Nouvelle demande – ${offer || 'Contact général'}`,
         html: `
