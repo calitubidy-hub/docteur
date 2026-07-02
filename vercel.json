@@ -18,12 +18,10 @@
       "src": "/api/(.*)",
       "dest": "backend/src/server.js"
     },
-    {
-      "handle": "filesystem"
-    },
+    { "handle": "filesystem" },
     {
       "src": "/(.*)",
-      "dest": "frontend/dist/index.html"
+      "dest": "frontend/index.html"
     }
   ]
 }
